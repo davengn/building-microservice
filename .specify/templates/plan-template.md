@@ -40,7 +40,17 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- **Reader journey**: Plan identifies the target reader workflow, revisit path,
+  and shareable public route(s) the feature improves.
+- **Source-use boundary**: Plan keeps `references/` as private input and defines
+  how public output remains original commentary, summary, diagram, example, or
+  navigation rather than copied source text.
+- **Traceability**: Plan defines source chapter/section metadata, tags, slugs,
+  editorial status, and how search/navigation consume that metadata.
+- **Balanced guidance**: Plan shows how microservices recommendations include
+  context, tradeoffs, risks, or alternatives where applicable.
+- **Shareable-site quality**: Plan includes build, lint, link, accessibility,
+  responsive layout, performance, and public artifact validation gates.
 
 ## Project Structure
 

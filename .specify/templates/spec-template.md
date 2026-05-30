@@ -85,6 +85,18 @@
   Fill them out with the right functional requirements.
 -->
 
+### Content & Rights Requirements *(mandatory for source-backed content)*
+
+- Identify source materials used by the feature, including chapter or section
+  boundaries where known.
+- Define what public content is original summary, commentary, diagram, example,
+  navigation, or metadata derived from the source.
+- State what source text, images, tables, PDFs, or markdown files are excluded
+  from public/shareable output.
+- Define citation or attribution requirements for any source-backed page.
+- Define the reader's revisit/share workflow, including stable URLs, search,
+  tags, glossary links, or progress behavior when applicable.
+
 ### Functional Requirements
 
 - **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
