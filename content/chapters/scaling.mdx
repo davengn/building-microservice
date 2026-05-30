@@ -1,0 +1,61 @@
+---
+id: chapter-13
+order: 13
+slug: scaling
+title: "Chapter 13: Scaling"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/13_Chapter_13_Scaling.md"
+  chapterLabel: "Chapter 13"
+summary: "Looks at scaling as targeted capacity, performance, and organizational work rather than simply adding more service instances."
+learningObjectives:
+  - "Identify the real bottleneck before choosing a scaling tactic."
+  - "Compare scaling application, data, and team capacity."
+  - "Recognize when scaling creates new coordination or consistency costs."
+takeaways:
+  - "Scaling work should start from measured pressure, not architecture fashion."
+  - "Data scaling often shapes service design more than compute scaling."
+  - "A scaling tactic can move the bottleneck rather than remove it."
+sections:
+  - chapter-13-orientation
+  - chapter-13-study-path
+  - chapter-13-review-cues
+tags:
+  - scaling
+  - performance
+  - capacity
+concepts:
+  - concept-horizontal-scaling
+  - concept-data-partitioning
+relatedChapters:
+  - chapter-08
+  - chapter-10
+  - chapter-12
+readingEstimateMinutes: 38
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Scaling a microservice system is rarely one move. This lesson encourages measurement, targeted intervention, and awareness of the new tradeoffs each tactic introduces.
+
+- Add capacity where the bottleneck actually exists.
+- Data access patterns often dominate service scalability.
+- Organizational scaling can be as limiting as runtime capacity.
+
+## Core study path
+
+Read with a bottleneck map. For each scaling option, ask what resource it protects and what new complexity it creates.
+
+- Measure before changing topology.
+- Separate throughput problems from latency problems.
+- Keep data ownership visible when partitioning or replication changes.
+
+## Practice cues
+
+Take a slow user journey and identify the bottleneck. Then propose one application, one data, and one operational change.
+
+- Define the metric that proves the bottleneck moved.
+- Check whether caching makes freshness harder.
+- Avoid scaling a service that is waiting on another dependency.

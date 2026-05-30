@@ -1,0 +1,61 @@
+---
+id: chapter-08
+order: 8
+slug: deployment
+title: "Chapter 8: Deployment"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/08_Chapter_8_Deployment.md"
+  chapterLabel: "Chapter 8"
+summary: "Covers deployment approaches that let services release safely, recover quickly, and evolve without turning every change into a coordinated event."
+learningObjectives:
+  - "Compare deployment strategies for independent services."
+  - "Describe how rollout, rollback, and observability fit together."
+  - "Recognize infrastructure choices that increase or reduce release coupling."
+takeaways:
+  - "Deployment strategy must match the service's risk and recovery model."
+  - "Fast rollback is useful only when state and compatibility are planned."
+  - "Environment consistency helps teams move quickly without losing confidence."
+sections:
+  - chapter-08-orientation
+  - chapter-08-study-path
+  - chapter-08-review-cues
+tags:
+  - deployment
+  - release
+  - operations
+concepts:
+  - concept-independent-deployment
+  - concept-progressive-delivery
+relatedChapters:
+  - chapter-07
+  - chapter-09
+  - chapter-10
+readingEstimateMinutes: 38
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Independent deployability is one of the main reasons to accept microservice complexity. This lesson focuses on the mechanics that make releases routine instead of dramatic.
+
+- Rollout strategy should reflect the blast radius of the change.
+- Rollback needs compatibility and state planning.
+- Deployment telemetry should answer whether the release is healthy.
+
+## Core study path
+
+Follow a release from artifact to production. Ask how the team controls exposure, detects trouble, and recovers without waiting on unrelated services.
+
+- Use automation to make releases repeatable.
+- Prefer small changes that can be observed quickly.
+- Keep deployment and operational ownership close together.
+
+## Practice cues
+
+Design a rollout plan for a risky service change. Include the first cohort, health checks, rollback trigger, and communication plan.
+
+- Define what "healthy" means before releasing.
+- Decide how configuration and schema changes are coordinated.
+- Keep manual approval focused on risk, not ceremony.

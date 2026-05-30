@@ -1,0 +1,61 @@
+---
+id: chapter-11
+order: 11
+slug: security
+title: "Chapter 11: Security"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/11_Chapter_11_Security.md"
+  chapterLabel: "Chapter 11"
+summary: "Examines security as a distributed responsibility spanning identity, service-to-service trust, secrets, data exposure, and operational controls."
+learningObjectives:
+  - "Explain how identity and authorization change across service boundaries."
+  - "Identify risks in internal APIs, secrets, and transport trust."
+  - "Balance centralized security controls with team-owned implementation."
+takeaways:
+  - "Internal traffic still needs explicit trust decisions."
+  - "Security controls should be reusable without hiding accountability."
+  - "Service boundaries create more places where data and identity can leak."
+sections:
+  - chapter-11-orientation
+  - chapter-11-study-path
+  - chapter-11-review-cues
+tags:
+  - security
+  - identity
+  - trust
+concepts:
+  - concept-zero-trust
+  - concept-service-identity
+relatedChapters:
+  - chapter-05
+  - chapter-10
+  - chapter-12
+readingEstimateMinutes: 42
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Microservices multiply trust boundaries. This lesson keeps security connected to everyday service design instead of treating it as a final review step.
+
+- Internal networks are not automatically safe.
+- Identity and authorization need propagation rules.
+- Secrets and certificates need lifecycle ownership.
+
+## Core study path
+
+Read by following a request from an external user through internal services. At every boundary, ask what identity is used, what permission is checked, and what data is exposed.
+
+- Decide where user identity should be preserved.
+- Decide where service identity should be used.
+- Keep security telemetry available for investigation.
+
+## Practice cues
+
+Pick an internal API and write its threat assumptions. Include caller identity, sensitive fields, abuse cases, and what gets logged.
+
+- Avoid relying on network location alone.
+- Make least privilege practical for teams.
+- Check whether security controls fail open or fail closed.

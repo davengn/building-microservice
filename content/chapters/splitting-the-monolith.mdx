@@ -1,0 +1,61 @@
+---
+id: chapter-03
+order: 3
+slug: splitting-the-monolith
+title: "Chapter 3: Splitting the Monolith"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/03_Chapter_3_Splitting_the_Monolith.md"
+  chapterLabel: "Chapter 3"
+summary: "Frames service extraction as a staged change program where seams, data movement, and risk controls matter more than a big-bang rewrite."
+learningObjectives:
+  - "Plan extraction around observable business outcomes."
+  - "Separate code movement from data ownership changes."
+  - "Choose migration steps that keep users and teams safe."
+takeaways:
+  - "Extraction is usually a sequence of reversible learning steps."
+  - "Data ownership is often harder than moving endpoints."
+  - "A modular monolith can be a useful waypoint, not a failure."
+sections:
+  - chapter-03-orientation
+  - chapter-03-study-path
+  - chapter-03-review-cues
+tags:
+  - migration
+  - monolith
+  - decomposition
+concepts:
+  - concept-strangler-fig
+  - concept-data-ownership
+relatedChapters:
+  - chapter-01
+  - chapter-02
+  - chapter-04
+readingEstimateMinutes: 40
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Most teams do not start with a clean microservice landscape. This lesson helps you treat decomposition as risk-managed change rather than a rewrite narrative.
+
+- Extract when the new boundary has a clear reason.
+- Keep rollback and coexistence in the migration plan.
+- Expect data ownership to be the hardest part of the work.
+
+## Core study path
+
+Read with a migration lens. Look for techniques that let old and new code coexist while the team learns whether the target boundary is actually useful.
+
+- Start with the pain point you want to relieve.
+- Choose a slice small enough to observe and reverse.
+- Use contracts and telemetry to keep the transition visible.
+
+## Practice cues
+
+Choose one monolith feature and write a split plan in three steps. Each step should have a user-safe fallback and a signal that tells you whether to continue.
+
+- Name the first behavior you would route to the new service.
+- List the data that cannot move immediately.
+- Define a success signal that is not just "service exists."

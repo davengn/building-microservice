@@ -1,0 +1,62 @@
+---
+id: chapter-06
+order: 6
+slug: workflow
+title: "Chapter 6: Workflow"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/06_Chapter_6_Workflow.md"
+  chapterLabel: "Chapter 6"
+summary: "Explains how multi-service business processes can be coordinated without hiding ownership, reliability, or compensation decisions."
+learningObjectives:
+  - "Distinguish choreography from orchestration."
+  - "Explain how long-running business work differs from local transactions."
+  - "Identify compensation, visibility, and ownership requirements in workflows."
+takeaways:
+  - "Workflow design is about business progress across independently owned services."
+  - "Choreography reduces central control but can make process state harder to see."
+  - "Orchestration clarifies flow but can concentrate coupling if overused."
+sections:
+  - chapter-06-orientation
+  - chapter-06-study-path
+  - chapter-06-review-cues
+tags:
+  - workflow
+  - saga
+  - orchestration
+concepts:
+  - concept-saga
+  - concept-orchestration
+  - concept-choreography
+relatedChapters:
+  - chapter-04
+  - chapter-05
+  - chapter-12
+readingEstimateMinutes: 40
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Real business processes often cross multiple service boundaries. This lesson focuses on making that progress visible, recoverable, and owned.
+
+- Distributed workflows need explicit failure stories.
+- Compensation is not the same as a database rollback.
+- Process visibility matters for support and operations.
+
+## Core study path
+
+Study the workflow choices by asking where state lives and who is responsible for moving the process forward.
+
+- Use orchestration when a clear process owner improves visibility.
+- Use choreography when services can react to facts independently.
+- Make failure and compensation paths first-class design work.
+
+## Practice cues
+
+Model a checkout or onboarding flow. For each step, note the owning service, the event or command, the timeout behavior, and the compensation path.
+
+- Avoid pretending cross-service work is a single transaction.
+- Identify the signal that tells support what happened.
+- Decide whether central coordination is helping or hiding coupling.

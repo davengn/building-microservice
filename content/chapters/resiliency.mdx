@@ -1,0 +1,61 @@
+---
+id: chapter-12
+order: 12
+slug: resiliency
+title: "Chapter 12: Resiliency"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/12_Chapter_12_Resiliency.md"
+  chapterLabel: "Chapter 12"
+summary: "Focuses on designing services that can absorb partial failure through timeouts, isolation, graceful degradation, recovery, and operational learning."
+learningObjectives:
+  - "Explain why partial failure is normal in distributed systems."
+  - "Choose resilience patterns based on user impact and dependency behavior."
+  - "Design recovery paths that are observable and testable."
+takeaways:
+  - "Resilience starts with accepting that remote calls can fail in many ways."
+  - "Timeouts, retries, and circuit breakers need context-specific tuning."
+  - "Graceful degradation is a product decision as much as a technical one."
+sections:
+  - chapter-12-orientation
+  - chapter-12-study-path
+  - chapter-12-review-cues
+tags:
+  - resiliency
+  - failure
+  - reliability
+concepts:
+  - concept-circuit-breaker
+  - concept-graceful-degradation
+relatedChapters:
+  - chapter-04
+  - chapter-06
+  - chapter-10
+readingEstimateMinutes: 44
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Distributed systems fail partially. This lesson helps you design services that protect users and teams when dependencies slow down, disappear, or return bad results.
+
+- Retries can amplify load if they are not bounded.
+- Isolation prevents one dependency from consuming every resource.
+- Degradation choices should match product priorities.
+
+## Core study path
+
+Read each resilience pattern through the lens of a dependency failure. Ask what happens to latency, load, user experience, and operator visibility.
+
+- Set timeouts before adding retries.
+- Isolate critical resources and failure domains.
+- Test recovery paths, not just happy paths.
+
+## Practice cues
+
+Choose one dependency and design its failure policy. Include timeout, retry, fallback, alert, and customer-facing behavior.
+
+- Define the maximum wait a user should experience.
+- Decide which features can degrade safely.
+- Verify that your fallback does not hide serious data problems.

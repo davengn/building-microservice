@@ -1,0 +1,61 @@
+---
+id: chapter-09
+order: 9
+slug: testing
+title: "Chapter 9: Testing"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/09_Chapter_9_Testing.md"
+  chapterLabel: "Chapter 9"
+summary: "Shows how testing strategy changes when correctness depends on contracts, service ownership, environments, and production feedback."
+learningObjectives:
+  - "Balance unit, integration, contract, and end-to-end tests."
+  - "Use tests to protect independent service evolution."
+  - "Avoid slow suites that recreate a distributed monolith."
+takeaways:
+  - "Testing should preserve confidence without forcing every team into lockstep."
+  - "Contract tests help services evolve around stable expectations."
+  - "End-to-end tests are valuable but expensive when used as the main safety net."
+sections:
+  - chapter-09-orientation
+  - chapter-09-study-path
+  - chapter-09-review-cues
+tags:
+  - testing
+  - contracts
+  - quality
+concepts:
+  - concept-contract-testing
+  - concept-test-pyramid
+relatedChapters:
+  - chapter-05
+  - chapter-07
+  - chapter-08
+readingEstimateMinutes: 42
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Microservices increase the number of integration points. This lesson helps you keep tests useful without turning every release into a full-system rehearsal.
+
+- Contract tests protect expectations between teams.
+- Large end-to-end suites can become slow and fragile.
+- Production telemetry complements, but does not replace, pre-release tests.
+
+## Core study path
+
+Read with the question: which test gives the earliest trustworthy signal for this risk?
+
+- Use unit tests for local behavior.
+- Use contract tests for boundary expectations.
+- Use selective end-to-end tests for critical user journeys.
+
+## Practice cues
+
+Pick one service dependency and define the contract you would test. Include request shape, response meaning, failure behavior, and versioning expectations.
+
+- Remove tests that only duplicate lower-level coverage.
+- Make ownership clear when a contract breaks.
+- Keep critical journeys small enough to debug.

@@ -1,0 +1,60 @@
+---
+id: chapter-07
+order: 7
+slug: build
+title: "Chapter 7: Build"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/07_Chapter_7_Build.md"
+  chapterLabel: "Chapter 7"
+summary: "Connects build pipelines, artifact ownership, dependency management, and continuous integration to the promise of independently releasable services."
+learningObjectives:
+  - "Explain why build discipline matters for service independence."
+  - "Identify shared dependency risks in a multi-service estate."
+  - "Design pipelines that give teams fast and trustworthy feedback."
+takeaways:
+  - "Independent deployability depends on repeatable builds and clear artifact ownership."
+  - "Shared libraries can help consistency while also spreading hidden coupling."
+  - "Fast feedback is a core architecture enabler."
+sections:
+  - chapter-07-orientation
+  - chapter-07-study-path
+  - chapter-07-review-cues
+tags:
+  - ci
+  - build
+  - delivery
+concepts:
+  - concept-continuous-integration
+  - concept-artifact-ownership
+relatedChapters:
+  - chapter-08
+  - chapter-09
+readingEstimateMinutes: 34
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+A service cannot change independently if its build pipeline is slow, unreliable, or tied to unrelated releases. This lesson treats build systems as part of the architecture.
+
+- Build outputs should be reproducible and owned.
+- Shared dependencies need deliberate compatibility rules.
+- Pipeline feedback should be quick enough to guide design.
+
+## Core study path
+
+Read the chapter as a release-readiness checklist. For each service, ask whether a team can build, test, package, and verify it without waiting on the whole estate.
+
+- Keep build artifacts traceable to source and configuration.
+- Watch for shared library releases that force lockstep upgrades.
+- Make broken builds visible before they block deployment.
+
+## Practice cues
+
+Sketch the build pipeline for one service. Mark the steps that prove correctness, security, compatibility, and deployability.
+
+- Decide which checks must run before merge.
+- Decide which checks can run before release.
+- Remove dependencies that only exist because the pipeline is convenient.

@@ -1,0 +1,61 @@
+---
+id: chapter-05
+order: 5
+slug: implementing-microservice-communication
+title: "Chapter 5: Implementing Microservice Communication"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/05_Chapter_5_Implementing_Microservice_Communication.md"
+  chapterLabel: "Chapter 5"
+summary: "Turns communication style into implementation choices around APIs, messaging, compatibility, versioning, discovery, and gateway responsibilities."
+learningObjectives:
+  - "Translate communication decisions into implementation constraints."
+  - "Protect service consumers with compatible contract evolution."
+  - "Recognize where gateways, discovery, and messaging infrastructure help or hurt."
+takeaways:
+  - "Integration code is part of the service boundary."
+  - "Compatibility is a product responsibility, not a library detail."
+  - "Infrastructure should make communication observable and operable."
+sections:
+  - chapter-05-orientation
+  - chapter-05-study-path
+  - chapter-05-review-cues
+tags:
+  - api-design
+  - messaging
+  - compatibility
+concepts:
+  - concept-api-contract
+  - concept-versioning
+relatedChapters:
+  - chapter-04
+  - chapter-06
+  - chapter-12
+readingEstimateMinutes: 44
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Implementation details decide whether a communication style stays maintainable. This lesson moves from architectural intent to concrete practices for APIs, messages, gateways, and compatibility.
+
+- Contract changes can become deployment coordination problems.
+- Gateways simplify clients but can become hidden monoliths.
+- Messaging infrastructure needs operational ownership.
+
+## Core study path
+
+Read by following a request or message across service boundaries. At each hop, ask how the contract is described, versioned, observed, and retired.
+
+- Prefer explicit contracts over accidental payload sharing.
+- Treat backward compatibility as a release discipline.
+- Use infrastructure to clarify ownership, not to hide coupling.
+
+## Practice cues
+
+Take an API you know and design a non-breaking change. Then design the same change as an event contract and compare the operational responsibilities.
+
+- Define which consumers must keep working during the change.
+- Decide how old versions are detected and removed.
+- Add telemetry that proves the migration is safe.

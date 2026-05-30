@@ -1,0 +1,60 @@
+---
+id: chapter-02
+order: 2
+slug: how-to-model-microservices
+title: "Chapter 2: How to Model Microservices"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/02_Chapter_2_How_to_Model_Microservices.md"
+  chapterLabel: "Chapter 2"
+summary: "Explores how domain modeling, boundaries, and data ownership shape services that can evolve without constant cross-team negotiation."
+learningObjectives:
+  - "Use domain language to reason about service boundaries."
+  - "Identify coupling hidden in data models and shared workflows."
+  - "Compare service extraction with modular monolith refinement."
+takeaways:
+  - "Good boundaries come from domain understanding, not from table counts or team preference alone."
+  - "Models are useful when they expose ownership, change frequency, and integration points."
+  - "A boundary should reduce coordination more than it increases distributed-system cost."
+sections:
+  - chapter-02-orientation
+  - chapter-02-study-path
+  - chapter-02-review-cues
+tags:
+  - modeling
+  - domain-driven-design
+  - boundaries
+concepts:
+  - concept-bounded-context
+  - concept-coupling
+relatedChapters:
+  - chapter-01
+  - chapter-03
+readingEstimateMinutes: 38
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Microservice design starts before code. This lesson focuses on finding boundaries that reflect the business vocabulary, rate of change, and ownership model.
+
+- Domain terms reveal where people already expect different rules.
+- Shared databases can hide coupling that service diagrams miss.
+- Modeling work should expose tradeoffs before teams commit to extraction.
+
+## Core study path
+
+Study the chapter as a boundary workshop. Move from nouns and workflows toward ownership, invariants, and integration contracts.
+
+- Identify capabilities before assigning technology.
+- Separate local consistency needs from eventual integration needs.
+- Ask which decisions should be owned inside one team.
+
+## Practice cues
+
+Pick a familiar product area and draw two possible boundaries. For each boundary, describe what becomes easier, what becomes slower, and what failure mode becomes more visible.
+
+- Look for data that changes for different reasons.
+- Watch for workflows that cross too many ownership lines.
+- Prefer boundaries that can be explained without implementation details.

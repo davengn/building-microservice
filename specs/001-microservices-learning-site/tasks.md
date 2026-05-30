@@ -51,22 +51,22 @@
 
 ### Tests for User Story 1
 
-- [ ] T018 [P] [US1] Add schema tests for chapter and section records in tests/unit/chapter-content.test.ts
-- [ ] T019 [P] [US1] Add the overview-to-chapter reader journey test in tests/e2e/chapter-reader.spec.ts
+- [X] T018 [P] [US1] Add schema tests for chapter and section records in tests/unit/chapter-content.test.ts
+- [X] T019 [P] [US1] Add the overview-to-chapter reader journey test in tests/e2e/chapter-reader.spec.ts
 
 ### Implementation for User Story 1
 
-- [ ] T020 [US1] Create original chapter MDX starter files for all 18 source chapter markdown files in content/chapters/*.mdx
-- [ ] T021 [US1] Implement ordered chapter loading, previous/next calculation, and chapter metadata helpers in lib/content/chapters.ts
-- [ ] T022 [P] [US1] Build the learning dashboard with a deep navy hero band and workspace-style study mockup in app/page.tsx
-- [ ] T023 [P] [US1] Build the ordered chapter index with status, effort, tags, and summaries in app/chapters/page.tsx
-- [ ] T024 [US1] Build the guided chapter route with static params and canonical metadata in app/chapters/[slug]/page.tsx
-- [ ] T025 [P] [US1] Build reader components for chapter header, section blocks, takeaways, and source notes in components/learning/ChapterHeader.tsx, components/learning/SectionBlock.tsx, components/learning/TakeawayList.tsx, and components/learning/SourceNote.tsx
-- [ ] T026 [P] [US1] Build desktop and mobile table-of-contents components in components/navigation/ChapterToc.tsx
-- [ ] T027 [US1] Build previous/next chapter navigation in components/navigation/ChapterPager.tsx
-- [ ] T028 [P] [US1] Build local reading progress display and persistence in components/learning/ReadingProgress.tsx and lib/content/reading-progress.ts
-- [ ] T029 [US1] Implement the three-column desktop reader layout and stacked mobile layout in components/layout/ReaderShell.tsx
-- [ ] T030 [US1] Wire US1 validation into package scripts for content checks, unit tests, and reader e2e checks in package.json
+- [X] T020 [US1] Create original chapter MDX starter files for all 18 source chapter markdown files in content/chapters/*.mdx
+- [X] T021 [US1] Implement ordered chapter loading, previous/next calculation, and chapter metadata helpers in lib/content/chapters.ts
+- [X] T022 [P] [US1] Build the learning dashboard with a deep navy hero band and workspace-style study mockup in app/page.tsx
+- [X] T023 [P] [US1] Build the ordered chapter index with status, effort, tags, and summaries in app/chapters/page.tsx
+- [X] T024 [US1] Build the guided chapter route with static params and canonical metadata in app/chapters/[slug]/page.tsx
+- [X] T025 [P] [US1] Build reader components for chapter header, section blocks, takeaways, and source notes in components/learning/ChapterHeader.tsx, components/learning/SectionBlock.tsx, components/learning/TakeawayList.tsx, and components/learning/SourceNote.tsx
+- [X] T026 [P] [US1] Build desktop and mobile table-of-contents components in components/navigation/ChapterToc.tsx
+- [X] T027 [US1] Build previous/next chapter navigation in components/navigation/ChapterPager.tsx
+- [X] T028 [P] [US1] Build local reading progress display and persistence in components/learning/ReadingProgress.tsx and lib/content/reading-progress.ts
+- [X] T029 [US1] Implement the three-column desktop reader layout and stacked mobile layout in components/layout/ReaderShell.tsx
+- [X] T030 [US1] Wire US1 validation into package scripts for content checks, unit tests, and reader e2e checks in package.json
 
 **Checkpoint**: User Story 1 is independently usable as the MVP reader site.
 

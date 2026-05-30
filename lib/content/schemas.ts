@@ -131,6 +131,7 @@ export const chapterFrontmatterSchema = z.object({
   summary: shortTextSchema,
   learningObjectives: z.array(shortTextSchema).default([]),
   takeaways: z.array(shortTextSchema).default([]),
+  sections: z.array(idSchema).default([]),
   tags: z.array(slugSchema).default([]),
   concepts: z.array(idSchema).default([]),
   visualizations: z.array(idSchema).default([]),

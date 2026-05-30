@@ -1,0 +1,61 @@
+---
+id: chapter-15
+order: 15
+slug: organizational-structures
+title: "Chapter 15: Organizational Structures"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/15_Chapter_15_Organizational_Structures.md"
+  chapterLabel: "Chapter 15"
+summary: "Connects service architecture to team topology, ownership, communication paths, platform support, and the social cost of distributed systems."
+learningObjectives:
+  - "Explain why team structure affects service boundaries."
+  - "Identify ownership models that support independent change."
+  - "Balance team autonomy with shared platform and governance needs."
+takeaways:
+  - "Architecture and organization shape each other."
+  - "A service without a clear owning team becomes a coordination liability."
+  - "Platform teams should reduce friction without taking product ownership away."
+sections:
+  - chapter-15-orientation
+  - chapter-15-study-path
+  - chapter-15-review-cues
+tags:
+  - organization
+  - ownership
+  - platform
+concepts:
+  - concept-team-topologies
+  - concept-platform-team
+relatedChapters:
+  - chapter-01
+  - chapter-14
+  - chapter-16
+readingEstimateMinutes: 38
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Microservices are as much about coordination as code. This lesson examines whether team boundaries, responsibilities, and platform support match the architecture you want.
+
+- Service ownership should include build, run, and evolution responsibilities.
+- Team dependencies can become architectural dependencies.
+- Shared standards should help teams move, not freeze them.
+
+## Core study path
+
+Read by mapping services to teams. For each service, ask who decides changes, who handles incidents, and who pays for operational complexity.
+
+- Prefer clear ownership over shared ambiguity.
+- Use platform capabilities to remove repeated work.
+- Keep governance lightweight and evidence-based.
+
+## Practice cues
+
+Draw your team-service map and mark the interactions required for one feature change.
+
+- Count approvals and handoffs.
+- Name the team that owns each production alarm.
+- Decide which shared capability belongs in a platform.

@@ -1,0 +1,61 @@
+---
+id: chapter-14
+order: 14
+slug: user-interfaces
+title: "Chapter 14: User Interfaces"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/14_Chapter_14_User_Interfaces.md"
+  chapterLabel: "Chapter 14"
+summary: "Explores how frontends interact with many services, including composition, backend-for-frontend patterns, team ownership, and user-facing performance."
+learningObjectives:
+  - "Compare frontend composition strategies for microservice systems."
+  - "Explain when a backend for frontend reduces client complexity."
+  - "Recognize coupling introduced by shared UI and API aggregation."
+takeaways:
+  - "User interfaces reveal service boundaries through real user journeys."
+  - "Aggregation can improve client ergonomics while concentrating coupling."
+  - "Frontend ownership should align with product workflows, not only APIs."
+sections:
+  - chapter-14-orientation
+  - chapter-14-study-path
+  - chapter-14-review-cues
+tags:
+  - frontend
+  - composition
+  - bff
+concepts:
+  - concept-backend-for-frontend
+  - concept-ui-composition
+relatedChapters:
+  - chapter-04
+  - chapter-05
+  - chapter-15
+readingEstimateMinutes: 36
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Users experience a system as workflows, not services. This lesson studies how UI architecture can either respect service ownership or reintroduce hidden coordination.
+
+- A frontend can become the place where service complexity leaks.
+- Backend-for-frontend layers can clarify client needs.
+- Shared UI foundations need ownership and release discipline.
+
+## Core study path
+
+Study each composition option by asking how it affects product teams, performance, and the ability to change a user journey safely.
+
+- Keep user workflow ownership clear.
+- Avoid making every screen wait on every service.
+- Treat aggregation APIs as product contracts.
+
+## Practice cues
+
+Map one page to the services it needs. Decide whether composition belongs in the browser, at an edge layer, or in a product-specific backend.
+
+- Identify the slowest dependency in the page.
+- Decide who owns the user-facing error state.
+- Check whether shared UI code forces synchronized releases.

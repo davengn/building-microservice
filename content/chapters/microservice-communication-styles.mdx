@@ -1,0 +1,61 @@
+---
+id: chapter-04
+order: 4
+slug: microservice-communication-styles
+title: "Chapter 4: Microservice Communication Styles"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/04_Chapter_4_Microservice_Communication_Styles.md"
+  chapterLabel: "Chapter 4"
+summary: "Compares communication choices across request-response, event-driven, and workflow styles so teams can match integration to coupling and reliability needs."
+learningObjectives:
+  - "Compare synchronous and asynchronous communication tradeoffs."
+  - "Recognize how contracts shape coupling between services."
+  - "Choose communication styles based on consistency, latency, and ownership."
+takeaways:
+  - "Communication style is an architectural decision, not just a protocol choice."
+  - "Synchronous calls are simple to reason about but can spread availability problems."
+  - "Events reduce direct coordination but require discipline around meaning and replay."
+sections:
+  - chapter-04-orientation
+  - chapter-04-study-path
+  - chapter-04-review-cues
+tags:
+  - communication
+  - events
+  - contracts
+concepts:
+  - concept-synchronous-communication
+  - concept-event-driven-architecture
+relatedChapters:
+  - chapter-03
+  - chapter-05
+  - chapter-06
+readingEstimateMinutes: 42
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+Services are only independent if their conversations are well chosen. This lesson helps you connect communication style to coupling, failure behavior, and team ownership.
+
+- A call graph is also a dependency graph.
+- Events can decouple timing while still coupling meaning.
+- Contracts need ownership and versioning habits.
+
+## Core study path
+
+Study each communication style by asking what happens when the receiver is slow, unavailable, or evolving independently.
+
+- Use request-response for direct questions that need immediate answers.
+- Use events when facts can be published and consumed independently.
+- Use workflow coordination when business progress must be explicit.
+
+## Practice cues
+
+For any service interaction, write down who needs the answer, how quickly they need it, and what should happen if the other service is down.
+
+- Identify the consistency requirement before choosing a protocol.
+- Look for chains of synchronous calls that amplify latency.
+- Check whether event names describe business facts or technical noise.

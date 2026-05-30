@@ -1,0 +1,60 @@
+---
+id: chapter-01
+order: 1
+slug: what-are-microservices
+title: "Chapter 1: What Are Microservices"
+source:
+  book: building-microservices-2e
+  chapterFile: "references/chapters/01_Chapter_1_What_Are_Microservices.md"
+  chapterLabel: "Chapter 1"
+summary: "Introduces microservices as independently changeable services aligned to business capability, while keeping the costs of distribution visible."
+learningObjectives:
+  - "Explain what makes a service boundary useful."
+  - "Recognize when independence creates value and when it only adds complexity."
+  - "Describe the operational responsibilities that come with distributed systems."
+takeaways:
+  - "Microservices are a design choice for independent change, not a default architecture."
+  - "A small service still needs ownership, observability, deployment, and recovery habits."
+  - "The benefit is strongest when boundaries match business and team responsibilities."
+sections:
+  - chapter-01-orientation
+  - chapter-01-study-path
+  - chapter-01-review-cues
+tags:
+  - fundamentals
+  - service-boundaries
+  - autonomy
+concepts:
+  - concept-service-boundary
+  - concept-team-ownership
+relatedChapters:
+  - chapter-02
+  - chapter-03
+readingEstimateMinutes: 32
+readingStatus: not-started
+editorialStatus: drafted
+---
+
+## Why this lesson matters
+
+This lesson anchors the rest of the site. A microservice is not simply a small web service; it is a deployable unit that lets a team change part of a system with fewer coordination costs.
+
+- Look for the link between service boundaries and team ownership.
+- Notice that independent deployability creates new operational duties.
+- Keep asking whether distribution is solving a real coordination problem.
+
+## Core study path
+
+Read the chapter as a vocabulary reset. Focus on autonomy, coupling, bounded business capability, and the difference between a service landscape and a collection of endpoints.
+
+- Start with the goal: independent change.
+- Then study the cost: remote calls, versioning, deployment, and failure handling.
+- Finish by comparing microservices with modular monolith design.
+
+## Practice cues
+
+Use this chapter to create a decision filter. If you cannot name the business capability, owning team, data boundary, and operational owner, the service boundary is probably still unclear.
+
+- Write one sentence describing the service's reason to exist.
+- List the dependencies that would stop it from changing independently.
+- Name the operational signals you would need on day one.
