@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T14:25:26.414Z",
+  "note": "This file stores source pointers and original editorial placeholders. It does not copy source chapter prose.",
+  "chapters": [
+    {
+      "id": "chapter-00",
+      "order": 0,
+      "slug": "front-matter",
+      "title": "Front Matter",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/00_Front_Matter.md",
+        "chapterLabel": "Front Matter"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-01",
+      "order": 1,
+      "slug": "what-are-microservices",
+      "title": "Chapter 1: What Are Microservices",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/01_Chapter_1_What_Are_Microservices.md",
+        "chapterLabel": "Chapter 1"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-02",
+      "order": 2,
+      "slug": "how-to-model-microservices",
+      "title": "Chapter 2: How to Model Microservices",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/02_Chapter_2_How_to_Model_Microservices.md",
+        "chapterLabel": "Chapter 2"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-03",
+      "order": 3,
+      "slug": "splitting-the-monolith",
+      "title": "Chapter 3: Splitting the Monolith",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/03_Chapter_3_Splitting_the_Monolith.md",
+        "chapterLabel": "Chapter 3"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-04",
+      "order": 4,
+      "slug": "microservice-communication-styles",
+      "title": "Chapter 4: Microservice Communication Styles",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/04_Chapter_4_Microservice_Communication_Styles.md",
+        "chapterLabel": "Chapter 4"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-05",
+      "order": 5,
+      "slug": "implementing-microservice-communication",
+      "title": "Chapter 5: Implementing Microservice Communication",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/05_Chapter_5_Implementing_Microservice_Communication.md",
+        "chapterLabel": "Chapter 5"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-06",
+      "order": 6,
+      "slug": "workflow",
+      "title": "Chapter 6: Workflow",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/06_Chapter_6_Workflow.md",
+        "chapterLabel": "Chapter 6"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-07",
+      "order": 7,
+      "slug": "build",
+      "title": "Chapter 7: Build",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/07_Chapter_7_Build.md",
+        "chapterLabel": "Chapter 7"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-08",
+      "order": 8,
+      "slug": "deployment",
+      "title": "Chapter 8: Deployment",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/08_Chapter_8_Deployment.md",
+        "chapterLabel": "Chapter 8"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-09",
+      "order": 9,
+      "slug": "testing",
+      "title": "Chapter 9: Testing",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/09_Chapter_9_Testing.md",
+        "chapterLabel": "Chapter 9"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-10",
+      "order": 10,
+      "slug": "from-monitoring-to-observability",
+      "title": "Chapter 10: From Monitoring to Observability",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/10_Chapter_10_From_Monitoring_to_Observability.md",
+        "chapterLabel": "Chapter 10"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-11",
+      "order": 11,
+      "slug": "security",
+      "title": "Chapter 11: Security",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/11_Chapter_11_Security.md",
+        "chapterLabel": "Chapter 11"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-12",
+      "order": 12,
+      "slug": "resiliency",
+      "title": "Chapter 12: Resiliency",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/12_Chapter_12_Resiliency.md",
+        "chapterLabel": "Chapter 12"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-13",
+      "order": 13,
+      "slug": "scaling",
+      "title": "Chapter 13: Scaling",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/13_Chapter_13_Scaling.md",
+        "chapterLabel": "Chapter 13"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-14",
+      "order": 14,
+      "slug": "user-interfaces",
+      "title": "Chapter 14: User Interfaces",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/14_Chapter_14_User_Interfaces.md",
+        "chapterLabel": "Chapter 14"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-15",
+      "order": 15,
+      "slug": "organizational-structures",
+      "title": "Chapter 15: Organizational Structures",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/15_Chapter_15_Organizational_Structures.md",
+        "chapterLabel": "Chapter 15"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-16",
+      "order": 16,
+      "slug": "the-evolutionary-architect",
+      "title": "Chapter 16: The Evolutionary Architect",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/16_Chapter_16_The_Evolutionary_Architect.md",
+        "chapterLabel": "Chapter 16"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    },
+    {
+      "id": "chapter-17",
+      "order": 17,
+      "slug": "back-matter-glossary-index-colophon",
+      "title": "Back Matter Glossary Index Colophon",
+      "source": {
+        "book": "building-microservices-2e",
+        "chapterFile": "references/chapters/17_Back_Matter_Glossary_Index_Colophon.md",
+        "chapterLabel": "Back Matter"
+      },
+      "summary": "Original public study notes have not been drafted for this source chapter yet.",
+      "learningObjectives": [
+        "Draft an original explanation of the chapter's core learning goal.",
+        "Record tradeoffs, risks, and alternatives before publishing."
+      ],
+      "takeaways": [
+        "Replace this placeholder with original review-ready takeaways."
+      ],
+      "tags": [
+        "draft"
+      ],
+      "editorialStatus": "source-imported"
+    }
+  ]
+}

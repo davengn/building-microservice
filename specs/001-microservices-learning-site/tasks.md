@@ -29,15 +29,15 @@
 
 **Critical**: No user story work should begin until this phase is complete.
 
-- [ ] T009 Define Zod schemas for Chapter, Section, Concept, Visualization, Example, ReviewItem, SearchIndexEntry, and KnowledgeGraphEdge in lib/content/schemas.ts
-- [ ] T010 Implement typed frontmatter parsing and public MDX discovery in lib/content/mdx.ts and lib/content/loaders.ts
-- [ ] T011 Implement source chapter discovery for the 18 markdown inputs in scripts/content/check-sources.ts
-- [ ] T012 Implement public draft generation boundaries that read references/ but write only original draft records under content/ in scripts/content/generate-drafts.ts
-- [ ] T013 Implement content validation for slugs, source refs, editorial status, quote limits, and original-public-body rules in scripts/content/validate-content.ts
-- [ ] T014 Implement the public artifact source audit that fails on references/, source PDF names, raw chapter markdown, or copied source passages in scripts/validate/audit-source.ts
-- [ ] T015 [P] Implement generated artifact writers for routes, graph metadata, and search metadata in lib/content/generated.ts
-- [ ] T016 [P] Create shadcn-compatible UI primitives aligned to DESIGN.md in components/ui/button.tsx, components/ui/card.tsx, components/ui/badge.tsx, components/ui/tabs.tsx, and components/ui/input.tsx
-- [ ] T017 Create the application frame, responsive navigation, theme toggle, and footer in components/layout/AppShell.tsx, components/navigation/MainNav.tsx, components/navigation/MobileNav.tsx, and components/layout/Footer.tsx
+- [X] T009 Define Zod schemas for Chapter, Section, Concept, Visualization, Example, ReviewItem, SearchIndexEntry, and KnowledgeGraphEdge in lib/content/schemas.ts
+- [X] T010 Implement typed frontmatter parsing and public MDX discovery in lib/content/mdx.ts and lib/content/loaders.ts
+- [X] T011 Implement source chapter discovery for the 18 markdown inputs in scripts/content/check-sources.ts
+- [X] T012 Implement public draft generation boundaries that read references/ but write only original draft records under content/ in scripts/content/generate-drafts.ts
+- [X] T013 Implement content validation for slugs, source refs, editorial status, quote limits, and original-public-body rules in scripts/content/validate-content.ts
+- [X] T014 Implement the public artifact source audit that fails on references/, source PDF names, raw chapter markdown, or copied source passages in scripts/validate/audit-source.ts
+- [X] T015 [P] Implement generated artifact writers for routes, graph metadata, and search metadata in lib/content/generated.ts
+- [X] T016 [P] Create shadcn-compatible UI primitives aligned to DESIGN.md in components/ui/button.tsx, components/ui/card.tsx, components/ui/badge.tsx, components/ui/tabs.tsx, and components/ui/input.tsx
+- [X] T017 Create the application frame, responsive navigation, theme toggle, and footer in components/layout/AppShell.tsx, components/navigation/MainNav.tsx, components/navigation/MobileNav.tsx, and components/layout/Footer.tsx
 
 **Checkpoint**: Content contracts, private-source safeguards, generated metadata, and UI primitives are ready for story work.
 
